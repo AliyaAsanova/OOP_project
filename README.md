@@ -25,8 +25,8 @@ The **Hotel Room Reservation** system is a software application designed to faci
 
 ## Roles of Group Members
 - **[Gabbazova Madina]** – Project Manager & Backend Developer
-- **[Manasova Gulum]** – Frontend Developer & UI/UX Designer
-- **[Asanova Aliia]** – Database Administrator & Documentation & Testing
+- **[Manasova Gulum]** – Database Sdministrator 
+- **[Asanova Aliia]** – Backend develioper & Documentation & Testing
 
 ## Screenshots
 (Include screenshots of the login page, room booking interface, admin dashboard, etc.)

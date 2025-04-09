@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'd:\OOP_final\qtdesign2.ui'
+# Form implementation generated from reading ui file 'd:\OOP_final\qtdesign4.ui'
 #
 # Created by: PyQt6 UI code generator 6.4.2
 #
@@ -12,7 +12,13 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1141, 736)
+        MainWindow.resize(1292, 860)
+        font = QtGui.QFont()
+        font.setFamily("Candara")
+        font.setPointSize(28)
+        font.setBold(True)
+        font.setWeight(75)
+        MainWindow.setFont(font)
         MainWindow.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
@@ -43,7 +49,7 @@ class Ui_MainWindow(object):
 "")
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayoutWidget = QtWidgets.QWidget(parent=self.centralwidget)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(310, 80, 511, 501))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(450, 80, 571, 501))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
@@ -100,7 +106,7 @@ class Ui_MainWindow(object):
         self.pushButton.setObjectName("pushButton")
         self.verticalLayout.addWidget(self.pushButton)
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(280, 10, 571, 71))
+        self.label.setGeometry(QtCore.QRect(390, 0, 691, 71))
         font = QtGui.QFont()
         font.setPointSize(-1)
         font.setBold(True)
@@ -110,6 +116,7 @@ class Ui_MainWindow(object):
 "color: white;\n"
 "border-radius: 12px;\n"
 "padding: 16px;\n"
+"\n"
 "font-size: 30px;\n"
 "font-weight: bold;\n"
 "")
@@ -117,7 +124,7 @@ class Ui_MainWindow(object):
         self.label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.label.setObjectName("label")
         self.verticalLayoutWidget_2 = QtWidgets.QWidget(parent=self.centralwidget)
-        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(310, 560, 511, 171))
+        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(450, 580, 571, 171))
         self.verticalLayoutWidget_2.setObjectName("verticalLayoutWidget_2")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)

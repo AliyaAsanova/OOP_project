@@ -1,6 +1,6 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow
-from ui_main_window import Ui_MainWindow
+from qtdesign4_ui import Ui_MainWindow
 from controller import ReservationController
 
 class HotelReservationApp(QMainWindow):
@@ -11,13 +11,14 @@ class HotelReservationApp(QMainWindow):
         self.controller = ReservationController()
 
         
-        self.ui.pushButton1.clicked.connect(self.new_reservation)
-        self.ui.pushButton_2.clicked.connect(self.view_reservation)
-        self.ui.pushButton_3.clicked.connect(self.edit_reservation)
-        self.ui.pushButton_4.clicked.connect(self.cancel_reservation)
-        self.ui.pushButton_5.clicked.connect(self.exit_app)
-
-    def new_reservation(self):
+        self.ui.pushButton.clicked.connect(self.cancel_reservation)
+        self.ui.pushButton_2.clicked.connect(self.add_rooms)
+        self.ui.pushButton_3.clicked.connect(self.make_reservation)
+        self.ui.pushButton_4.clicked.connect(self.view_reservation)
+        self.ui.pushButton_5.clicked.connect(self.view_rooms)
+        self.ui.btnExit.clicked.connect(self.exit_app)
+        self.ui.btnUpdate.clicked.connect(self.updating)
+    def make_reservation(self):
         
         self.controller.create_reservation("Aliya", 101, "2025-04-06", "2025-04-10")
         print("New reservation added.")
@@ -26,15 +27,24 @@ class HotelReservationApp(QMainWindow):
         reservations = self.controller.get_reservations()
         for res in reservations:
             print(res)
+    def add_rooms(self):
+        pass
 
-    def edit_reservation(self):
+    def _reservation(self):
         print("Edit reservation – пока не реализовано")
 
     def cancel_reservation(self):
         print("Cancel reservation – пока не реализовано")
 
+    def view_rooms(self):
+        pass
+
+    def updating(self):
+        pass
+
     def exit_app(self):
         self.close()
+    
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

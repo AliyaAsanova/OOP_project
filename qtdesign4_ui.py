@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Form implementation generated from reading ui file 'd:\final project1\qtdesign4.ui'
-=======
-# Form implementation generated from reading ui file 'd:\OOP_final\qtdesign4.ui'
->>>>>>> 0e347fbbbd232e211af6f4f7faf26b0a0aeb9a19
 #
 # Created by: PyQt6 UI code generator 6.4.2
 #

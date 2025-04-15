@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1292</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Candara</family>
+    <pointsize>28</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget{
+background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                  stop:0 #0f2027,
+                                  stop:0.5 #203a43,
+                                  stop:1 #2c5364);
+}
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton#btnUpdate, QPushButton#btnExit {
+    background-color: #e67e22;
+}
+
+QPushButton#btnExit {
+    background-color: #c0392b;
+}
+</string>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>80</y>
+      <width>571</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>10</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="styleSheet">
+        <string notr="true">background-color: #648bbf;
+color: white;
+border-radius: 10px;
+padding: 15px;
+font-size: 20px;
+font-weight: bold;
+</string>
+       </property>
+       <property name="text">
+        <string>View Rooms</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: #648bbf;
+color: white;
+border-radius: 10px;
+padding: 15px;
+font-size: 20px;
+font-weight: bold;
+</string>
+       </property>
+       <property name="text">
+        <string>Make Reservation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="styleSheet">
+        <string notr="true">background-color: #648bbf;
+color: white;
+border-radius: 10px;
+padding: 15px;
+font-size: 20px;
+font-weight: bold;
+</string>
+       </property>
+       <property name="text">
+        <string>View Reservations</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: #648bbf;
+color: white;
+border-radius: 10px;
+padding: 15px;
+font-size: 20px;
+font-weight: bold;
+</string>
+       </property>
+       <property name="text">
+        <string>Add Rooms</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: #648bbf;
+color: white;
+border-radius: 10px;
+padding: 15px;
+font-size: 20px;
+font-weight: bold;
+</string>
+       </property>
+       <property name="text">
+        <string>Cancel Reservation</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>0</y>
+      <width>691</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">;
+color: white;
+border-radius: 12px;
+padding: 16px;
+
+font-size: 30px;
+font-weight: bold;
+</string>
+    </property>
+    <property name="text">
+     <string>Hotel Reservation System</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>580</y>
+      <width>571</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btnUpdate">
+       <property name="styleSheet">
+        <string notr="true">background-color: #475569; /* можно заменить на другой */
+color: white;
+border-radius: 8px;
+padding: 16px;
+font-size: 20px;
+font-weight: bold;
+</string>
+       </property>
+       <property name="text">
+        <string>Update Reservation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnExit">
+       <property name="styleSheet">
+        <string notr="true">background-color: #475569; /* можно заменить на другой */
+color: white;
+border-radius: 8px;
+padding: 16px;
+font-size: 20px;
+font-weight: bold;
+</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

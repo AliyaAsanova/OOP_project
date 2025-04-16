@@ -62,7 +62,8 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 
 
 ##  🖼️ UML Class diagram
-!["uml"](![image](https://github.com/user-attachments/assets/a223d164-b67c-4f71-90c5-b99b97275996)
+[uml](https://github.com/user-attachments/assets/c412af0b-fe21-4a56-9beb-92c6d9ebb3de)
+
 )
 
 
@@ -93,7 +94,7 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 Meeting notes and action items are documented in **[Google Docs Link]**.
 
 ## Commit History
-A detailed commit history is maintained, ensuring development logs for over three weeks prior to submission.
+
 
 ## GitHub Repository
 https://github.com/AliyaAsanova/OOP_project

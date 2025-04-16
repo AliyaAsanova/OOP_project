@@ -19,7 +19,7 @@ hotel_reservation/
 └── README.md   
 
 - # controller.py 
-    [reservation_controller.py]((https://github.com/AliyaAsanova/OOP_project/blob/master/reservation_controller.py)) : Implements controller logic (MVC). Connects UI actions to database operations using DAOs.
+    [reservation_controller.py](https://github.com/AliyaAsanova/OOP_project/blob/master/reservation_controller.py) : Implements controller logic (MVC). Connects UI actions to database operations using DAOs.
 
 -  # model.py 
     [room_dao.py](/oop_project/OOP_project/room_dao.py) : DAO for rooms. Handles room creation, retrieval, and updating availability.

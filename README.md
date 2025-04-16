@@ -62,9 +62,19 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 
 
 
-## UML Class diagram
+##  🖼️ UML Class diagram
 !["uml"](images/uml.jpg)
 
 
+## 📊 Database Reports
+!["1"](images/customer.png)
+!["2"](images/reservations.png)
+!["3"](images/rooms.png)
+
+
 ## Weekly Meeting Documentation
-[Meeting Documentation](files/Hotel_Reservation_Weekly_Meetings.docx)
+[Meeting Documentation](https://docs.google.com/document/d/1_htmtroq5o1iu5VNKjSZXFNl-JBeMTzT/edit?usp=drivesdk&ouid=108611784893782046760&rtpof=true&sd=true)
+
+
+## Presentation 
+[Presentation](https://www.canva.com/design/DAGjwX11IKM/P5UfgfNe-QNC-kTOExqvpQ/edit?utm_content=DAGjwX11IKM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)

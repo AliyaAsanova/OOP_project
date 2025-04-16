@@ -86,7 +86,17 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 - **[Asanova Aliia]** – Backend develioper & Documentation & Testing
 
 ## Screenshots
-
+!["Main Window"](images/screenshot1.mainwindow.png)
+![](images/view_rooms.png)
+![](images/make_reservation.png)
+![](images/make_reservation1.png)
+![](images/make_reservation2.png)
+![](images/view_reservations.png)
+![](images/add_room.png)
+![](images/rooms1.png)
+![](images/update.png)
+![](images/cancel.png)
+![](images/cancel1.png)
 
 
 

@@ -62,7 +62,7 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 
 
 ##  🖼️ UML Class diagram
-![image]("D:\final project1\images\uml.png")
+![image](images/uml.png)
 
 
 
@@ -94,7 +94,7 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 Meeting notes and action items are documented in **[Google Docs Link]**.
 
 ## Commit History
-![image]("D:\final project1\images\commits.png")
+![image](images/commits.png")
 
 
 ## GitHub Repository

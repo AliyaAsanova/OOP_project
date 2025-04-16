@@ -62,7 +62,8 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 
 
 ##  🖼️ UML Class diagram
-!["uml"](images/uml.jpg)
+!["uml"](![image](https://github.com/user-attachments/assets/a223d164-b67c-4f71-90c5-b99b97275996)
+)
 
 
 ## 📊 Database Reports
@@ -84,10 +85,9 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 - **[Asanova Aliia]** – Backend develioper & Documentation & Testing
 
 ## Screenshots
-(Include screenshots of the login page, room booking interface, admin dashboard, etc.)
 
-## UML Class Diagram
-(Attach a UML class diagram illustrating the system’s classes, their attributes, methods, and relationships.)
+
+
 
 ## Weekly Meeting Documentation
 Meeting notes and action items are documented in **[Google Docs Link]**.

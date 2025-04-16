@@ -18,46 +18,45 @@ hotel_reservation/
 ├── resources/          
 └── README.md   
 
-- # controller.py 
+- # controller.py
     [reservation_controller.py](https://github.com/AliyaAsanova/OOP_project/blob/master/reservation_controller.py) : Implements controller logic (MVC). Connects UI actions to database operations using DAOs.
 
 -  # model.py 
-    [room_dao.py](/oop_project/OOP_project/room_dao.py) : DAO for rooms. Handles room creation, retrieval, and updating availability.
+    [room_dao.py](https://github.com/AliyaAsanova/OOP_project/blob/master/room_dao.py) : DAO for rooms. Handles room creation, retrieval, and updating availability.
 
-    [customer_dao.py](/oop_project/OOP_project/customer_dao.py) : Data Access Object for customers. Supports creating, reading, updating, and deleting customer records
+    [customer_dao.py](https://github.com/AliyaAsanova/OOP_project/blob/master/customer_dao.py) : Data Access Object for customers. Supports creating, reading, updating, and deleting customer records
     
-    [reservation_dao.py](/oop_project/OOP_project/reservation_dao.py) : DAO for reservations. Supports CRUD operations for reservation records, including cost calculations.
+    [reservation_dao.py](https://github.com/AliyaAsanova/OOP_project/blob/master/reservation_dao.py) : DAO for reservations. Supports CRUD operations for reservation records, including cost calculations.
 hotel_reservation.db | SQLite database file. Stores data for customers, rooms, and reservations
 
-    [test_customer_dao.py](/oop_project/OOP_project/test_customer_dao.py) : Unit test for CustomerDAO. Adds test customers and checks they are correctly stored in the database.
+    [test_customer_dao.py](https://github.com/AliyaAsanova/OOP_project/blob/master/test_customer_dao.py) : Unit test for CustomerDAO. Adds test customers and checks they are correctly stored in the database.
 
-    [test_reservation_dao.py](/oop_project/OOP_project/test_reservation_dao.py) : Test script for ReservationDAO. Adds a sample reservation and prints all reservations.
-
-    [test_room_dao.py](/oop_project/OOP_project/test_room_dao.py) : Test script for RoomDAO. Adds a test room, then displays all and available rooms.
+    [test_reservation_dao.py](https://github.com/AliyaAsanova/OOP_project/blob/master/test_reservation_dao.py) : Test script for ReservationDAO. Adds a sample reservation and prints all reservations.
+    [test_room_dao.py](https://github.com/AliyaAsanova/OOP_project/blob/master/test_room_dao.py) : Test script for RoomDAO. Adds a test room, then displays all and available rooms.
 
 
 - # view.py
-    [view.py](/oop_project/OOP_project/view.py)  : Main GUI logic. Connects buttons from the UI `qtdesign4_ui.py` to actions like viewing rooms, making reservations, etc.
+    [view.py](https://github.com/AliyaAsanova/OOP_project/blob/master/view.py)  : Main GUI logic. Connects buttons from the UI `qtdesign4_ui.py` to actions like viewing rooms, making reservations, etc.
 
-    [qtdesign4.ui](/oop_project/OOP_project/qtdesign4.ui)  : UI layout created in Qt Designer. Defines button positions, styles, and structure of the main window
+    [qtdesign4.ui](https://github.com/AliyaAsanova/OOP_project/blob/master/qtdesign4.ui)  : UI layout created in Qt Designer. Defines button positions, styles, and structure of the main window
 
-    [qtdesign4_ui.py](/oop_project/OOP_project/qtdesign4_ui.py) :  Auto-generated Python code from the .ui file. Used to build the interface with PyQt6.
+    [qtdesign4_ui.py](https://github.com/AliyaAsanova/OOP_project/blob/master/qtdesign4_ui.py) :  Auto-generated Python code from the .ui file. Used to build the interface with PyQt6.
     
-    [dialogs.py](/oop_project/OOP_project/dialogs.py) : Contains all functional dialog windows (Make Reservation, Update, Cancel, Add Room, View Reservations) with forms and tables.
+    [dialogs.py](https://github.com/AliyaAsanova/OOP_project/blob/master/dialogs.py) : Contains all functional dialog windows (Make Reservation, Update, Cancel, Add Room, View Reservations) with forms and tables.
 
 
 
 - # DB
-    [hotel_reservation.db](/oop_project/OOP_project/hotel_reservation.db)
+    [hotel_reservation.db](https://github.com/AliyaAsanova/OOP_project/blob/master/hotel_reservation.db)
 
  - # resources
-    [images](/oop_project/OOP_project/images/)
+    [images](https://github.com/AliyaAsanova/OOP_project/tree/master/images)
  
  - # README.md
-    [README.md](/oop_project/OOP_project/README.md)
+    [README.md](https://github.com/AliyaAsanova/OOP_project/blob/master/README.md)
 
 - # main.py 
-    [main.py](/oop_project/OOP_project/main.py) : Launches the application. Initializes the PyQt6 app and opens the main window (HotelReservationApp)
+    [main.py](https://github.com/AliyaAsanova/OOP_project/blob/master/main.py) : Launches the application. Initializes the PyQt6 app and opens the main window (HotelReservationApp)
 
 
 

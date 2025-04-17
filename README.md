@@ -100,8 +100,6 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 
 
 
-## Weekly Meeting Documentation
-Meeting notes and action items are documented in **[Google Docs Link]**.
 
 ## Commit History
 ![image](images/commits.png)

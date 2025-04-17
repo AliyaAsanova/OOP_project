@@ -68,9 +68,11 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 
 
 ## 📊 Database Reports
-!["1"](images/customer.png)
-!["2"](images/reservations.png)
-!["3"](images/rooms.png)
+!["1"](images/report.png)
+!["2"](images/report1.png)
+!["3"](images/customer.png)
+!["4"](images/reservations.png)
+!["5"](images/rooms.png)
 
 
 ## Weekly Meeting Documentation
@@ -80,10 +82,7 @@ hotel_reservation.db | SQLite database file. Stores data for customers, rooms, a
 ## Presentation 
 [Presentation](https://www.canva.com/design/DAGjwX11IKM/P5UfgfNe-QNC-kTOExqvpQ/edit?utm_content=DAGjwX11IKM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-## Roles of Group Members
-- **[Gabbazova Madina]** – Project Manager & UI Designer
-- **[Manasova Gulum]** – Database Sdministrator 
-- **[Asanova Aliia]** – Backend develioper & Documentation & Testing
+
 
 ## Screenshots
 !["Main Window"](images/screenshot1.mainwindow.png)
